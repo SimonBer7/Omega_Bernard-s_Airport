@@ -90,5 +90,5 @@ select reservation.pin as pin, flight.fly_number as fly_number, passenger.name a
 from reservation inner join passenger ON reservation.passenger_id = passenger.id inner join flight ON reservation.flight_id = flight.id inner join destination ON flight.destination_id = destination.id inner join plane ON flight.plane_id = plane.id inner join pilot ON flight.pilot_id = pilot.id;
 COMMIT	
 
-	insert into passenger(name, email, password, phone_num, pin) values('Karel', 'kaja@gmail.com', '99763235b36a8ca5275181f7428b88ba01760ef610e555f01dac4264ad56e0f4', '777666555', '010203/4748');
-	delete from passenger;
+insert into passenger(name, email, password, phone_num, pin) values('Karel', 'kaja@gmail.com', '99763235b36a8ca5275181f7428b88ba01760ef610e555f01dac4264ad56e0f4', '777666555', '010203/4748');
+delete from passenger;

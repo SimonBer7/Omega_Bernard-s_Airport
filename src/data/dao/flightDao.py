@@ -1,56 +1,11 @@
+import datetime
+
+
 class FlightDao:
-    """
-    The FlightDao class represents a Data Access Object (DAO) for managing Flight objects in a database.
-
-    ...
-
-    Attributes
-    ----------
-    database : Database
-        The Database object representing the connection to the underlying database.
-
-    Methods
-    -------
-    insert(flight)
-        Inserts a Flight object into the database.
-    read()
-        Reads all flights from the database.
-    read_flight_id(fly_num)
-        Reads the ID of a flight based on the flight number.
-    read_flight_price(fly_num)
-        Reads the price of a flight based on the flight number.
-    update(fly_num, new_price)
-        Updates the price of a flight based on the flight number.
-    delete(fly_num)
-        Deletes a flight from the database based on the flight number.
-
-    """
-
     def __init__(self, d):
-        """
-        Initializes a new FlightDao object with the provided Database object.
-
-        Parameters
-        ----------
-        d : Database
-            The Database object representing the connection to the underlying database.
-        """
         self.database = d
 
     def insert(self, flight):
-        """
-        Inserts a Flight object into the database.
-
-        Parameters
-        ----------
-        flight : Flight
-            The Flight object to be inserted into the database.
-
-        Returns
-        -------
-        None
-            No return value.
-        """
         try:
             if flight is None:
                 raise Exception("Invalid pilot object")
@@ -66,14 +21,6 @@ class FlightDao:
             print(f"Error inserting flight into the database: {str(e)}")
 
     def read(self):
-        """
-        Reads all flights from the database.
-
-        Returns
-        -------
-        list or str
-            A list of Flight objects or an error message.
-        """
         try:
             sql_statement = "SELECT * FROM print_all_flights;"
             result = self.database.execute_with_data(sql_statement, None)
@@ -85,19 +32,6 @@ class FlightDao:
             raise f"Error with printing flights from the database: {str(e)}"
 
     def read_flight_id(self, fly_num):
-        """
-        Reads the ID of a flight based on the flight number.
-
-        Parameters
-        ----------
-        fly_num : int
-            The flight number.
-
-        Returns
-        -------
-        int or str
-            The ID of the flight or an error message.
-        """
         try:
             if fly_num is None:
                 raise ValueError()
@@ -114,19 +48,6 @@ class FlightDao:
             print("Error with reading from the database")
 
     def read_flight_price(self, fly_num):
-        """
-        Reads the price of a flight based on the flight number.
-
-        Parameters
-        ----------
-        fly_num : int
-            The flight number.
-
-        Returns
-        -------
-        int or str
-            The price of the flight or an error message.
-        """
         try:
             if fly_num is None:
                 raise ValueError()
@@ -139,21 +60,6 @@ class FlightDao:
             print("Error with reading price from the database")
 
     def update(self, fly_num, new_price):
-        """
-        Updates the price of a flight based on the flight number.
-
-        Parameters
-        ----------
-        fly_num : int
-            The flight number.
-        new_price : int
-            The new price value.
-
-        Returns
-        -------
-        None
-            No return value.
-        """
         try:
             if fly_num is None or new_price is None:
                 raise ValueError()
@@ -165,19 +71,6 @@ class FlightDao:
             print("Error with updating price")
 
     def delete(self, fly_num):
-        """
-        Deletes a flight from the database based on the flight number.
-
-        Parameters
-        ----------
-        fly_num : int
-            The flight number.
-
-        Returns
-        -------
-        str
-            A message indicating the success or failure of the deletion.
-        """
         try:
             if fly_num is None:
                 raise ValueError()

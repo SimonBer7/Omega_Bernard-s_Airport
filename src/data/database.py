@@ -14,7 +14,6 @@ class Database:
         except pyodbc.Error as e:
             return f"Error connecting to the database: {e}"
 
-
     def get_connection_string(self):
         config = configparser.ConfigParser()
         config.read('conf/configuration.ini')
@@ -41,10 +40,29 @@ class Database:
         cursor.close()
         connection.close()
 
+    def execute_with_data(self, query, values):
+        try:
+            connection = pyodbc.connect(self.connection_string)
+            cursor = connection.cursor()
+            if values:
+                data = cursor.execute(query, values)
+                result = data.fetchall()
+                connection.commit()
+            else:
+                data = cursor.execute(query)
+                result = data.fetchall()
+                connection.commit()
+            return result
+        except Exception as e:
+            return f"Error: {e}"
+        finally:
+            cursor.close()
+            connection.close()
+
+
     def create_database(self):
         pass
 
     def drop_database(self):
         pass
-
 
