@@ -1,6 +1,8 @@
 import tkinter as tk
 import tkinter.font as tkFont
 from src.views.show_profile_view import Profile_view
+from src.views.change_email_view import Change_email_view
+from src.views.delete_account_view import Delete_account_view
 
 class User_main_view(tk.Toplevel):
     def __init__(self, master, app):
@@ -45,7 +47,7 @@ class User_main_view(tk.Toplevel):
         self.change_email_btn["justify"] = "center"
         self.change_email_btn["text"] = "Change email"
         self.change_email_btn.place(x=300, y=160, width=200, height=100)
-        self.change_email_btn["command"] = self.GButton_410_command
+        self.change_email_btn["command"] = self.change_email
 
         self.show_my_flights_btn=tk.Button(self)
         self.show_my_flights_btn["bg"] = "#f0f0f0"
@@ -85,7 +87,7 @@ class User_main_view(tk.Toplevel):
         self.delete_account_btn["justify"] = "center"
         self.delete_account_btn["text"] = "Delete account"
         self.delete_account_btn.place(x=560, y=340, width=200, height=100)
-        self.delete_account_btn["command"] = self.GButton_441_command
+        self.delete_account_btn["command"] = self.delete_account
 
         self.logout_button=tk.Button(self)
         self.logout_button["bg"] = "#f0f0f0"
@@ -103,8 +105,9 @@ class User_main_view(tk.Toplevel):
         profile_view = Profile_view(self.master, self)
         profile_view.deiconify()
 
-    def GButton_410_command(self):
-        print("command")
+    def change_email(self):
+        change_email_view = Change_email_view(self.master, self)
+        change_email_view.deiconify()
 
 
     def GButton_99_command(self):
@@ -119,8 +122,9 @@ class User_main_view(tk.Toplevel):
         print("command")
 
 
-    def GButton_441_command(self):
-        print("command")
+    def delete_account(self):
+        delete_account_view = Delete_account_view(self.master, self)
+        delete_account_view.deiconify()
 
 
     def logout(self):

@@ -1,5 +1,5 @@
 from src.data.models.passenger import Passenger
-
+import re
 
 class PassengerDao:
     def __init__(self, d):
@@ -66,15 +66,17 @@ class PassengerDao:
         data = self.database.execute_with_data(sql_statement, None)
         return data
 
-    def update(self, email_tmp, pas):
+    def update(self, new_email, old_email, pas):
         try:
-            if pas is None and email_tmp is None:
+            if pas is None and new_email is None and old_email is None:
                 raise Exception("Invalid values")
-            password = Passenger.hash_password(pas)
-            sql_statement = "UPDATE passenger SET email = ? where password = ?;"
-            values = (str(email_tmp), str(password))
-            self.database.execute(sql_statement, values)
-            return "Passenger's email was updated."
+
+            if self.is_valid_email(new_email):
+                password = Passenger.hash_password(pas)
+                sql_statement = "UPDATE passenger SET email = ? where email = ? and password = ?;"
+                values = (str(new_email), str(old_email), str(password))
+                self.database.execute(sql_statement, values)
+                return "Passenger's email was updated."
         except Exception as e:
             return f"Error updating passenger into the database: {str(e)}"
 
@@ -107,3 +109,11 @@ class PassengerDao:
             return "Passenger was deleted"
         except ValueError:
             return "Error with deleting passenger"
+
+    def is_valid_email(self, email):
+        pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+
+        if re.match(pattern, email):
+            return True
+        else:
+            return False

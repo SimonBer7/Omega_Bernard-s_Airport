@@ -1,6 +1,7 @@
 import tkinter as tk
 import tkinter.font as tkFont
 
+
 class Profile_view(tk.Toplevel):
     def __init__(self, master, app):
         super().__init__(master)
@@ -19,105 +20,87 @@ class Profile_view(tk.Toplevel):
         self.geometry(alignstr)
         self.resizable(width=False, height=False)
 
-        self.GLabel_732=tk.Label(self)
+        self.main_heading=tk.Label(self)
         ft = tkFont.Font(family='Times',size=38)
-        self.GLabel_732["font"] = ft
-        self.GLabel_732["fg"] = "#333333"
-        self.GLabel_732["justify"] = "center"
-        self.GLabel_732["text"] = "Profile"
-        self.GLabel_732.place(x=0,y=40,width=800,height=50)
+        self.main_heading["font"] = ft
+        self.main_heading["fg"] = "#333333"
+        self.main_heading["justify"] = "center"
+        self.main_heading["text"] = "Profile"
+        self.main_heading.place(x=0, y=40, width=800, height=50)
 
-        self.GButton_209=tk.Button(self)
-        self.GButton_209["bg"] = "#f0f0f0"
+        self.back_button=tk.Button(self)
+        self.back_button["bg"] = "#f0f0f0"
         ft = tkFont.Font(family='Times',size=18)
-        self.GButton_209["font"] = ft
-        self.GButton_209["fg"] = "#000000"
-        self.GButton_209["justify"] = "center"
-        self.GButton_209["text"] = "Back"
-        self.GButton_209.place(x=300,y=570,width=200,height=100)
-        self.GButton_209["command"] = self.GButton_209_command
+        self.back_button["font"] = ft
+        self.back_button["fg"] = "#000000"
+        self.back_button["justify"] = "center"
+        self.back_button["text"] = "Back"
+        self.back_button.place(x=300, y=500, width=200, height=100)
+        self.back_button["command"] = self.move_back
 
-        self.GLabel_557=tk.Label(self)
+        self.label_name=tk.Label(self)
         ft = tkFont.Font(family='Times',size=18)
-        self.GLabel_557["font"] = ft
-        self.GLabel_557["fg"] = "#333333"
-        self.GLabel_557["justify"] = "left"
-        self.GLabel_557["text"] = "Name: "
-        self.GLabel_557.place(x=100,y=120,width=300,height=50)
+        self.label_name["font"] = ft
+        self.label_name["fg"] = "#333333"
+        self.label_name["justify"] = "left"
+        self.label_name["text"] = "Name: "
+        self.label_name.place(x=100, y=120, width=300, height=50)
 
-        self.GMessage_597=tk.Message(self)
+        self.message_name=tk.Message(self)
         ft = tkFont.Font(family='Times',size=18)
-        self.GMessage_597["font"] = ft
-        self.GMessage_597["fg"] = "#333333"
-        self.GMessage_597["justify"] = "center"
-        self.GMessage_597["text"] = self.master.app.logged_user.get_name()
-        self.GMessage_597.place(x=400,y=120,width=300,height=50)
+        self.message_name["font"] = ft
+        self.message_name["fg"] = "#333333"
+        self.message_name["justify"] = "center"
+        self.message_name["text"] = self.master.app.logged_user.get_name()
+        self.message_name.place(x=400, y=120, width=300, height=50)
 
-        self.GLabel_935=tk.Label(self)
+        self.label_email=tk.Label(self)
         ft = tkFont.Font(family='Times',size=18)
-        self.GLabel_935["font"] = ft
-        self.GLabel_935["fg"] = "#333333"
-        self.GLabel_935["justify"] = "left"
-        self.GLabel_935["text"] = "Email: "
-        self.GLabel_935.place(x=100,y=200,width=300,height=50)
+        self.label_email["font"] = ft
+        self.label_email["fg"] = "#333333"
+        self.label_email["justify"] = "left"
+        self.label_email["text"] = "Email: "
+        self.label_email.place(x=100, y=200, width=300, height=50)
 
-        self.GMessage_713=tk.Message(self)
+        self.message_email=tk.Message(self)
         ft = tkFont.Font(family='Times',size=18)
-        self.GMessage_713["font"] = ft
-        self.GMessage_713["fg"] = "#333333"
-        self.GMessage_713["justify"] = "center"
-        self.GMessage_713["text"] = self.master.app.logged_user.get_email()
-        self.GMessage_713.place(x=400,y=200,width=300,height=50)
+        self.message_email["font"] = ft
+        self.message_email["fg"] = "#333333"
+        self.message_email["justify"] = "center"
+        self.message_email["text"] = self.master.app.logged_user.get_email()
+        self.message_email.place(x=400, y=200, width=300, height=50)
 
-        self.GLabel_142=tk.Label(self)
+        self.label_phone=tk.Label(self)
         ft = tkFont.Font(family='Times',size=18)
-        self.GLabel_142["font"] = ft
-        self.GLabel_142["fg"] = "#333333"
-        self.GLabel_142["justify"] = "left"
-        self.GLabel_142["text"] = "Password: "
-        self.GLabel_142.place(x=100,y=280,width=300,height=50)
+        self.label_phone["font"] = ft
+        self.label_phone["fg"] = "#333333"
+        self.label_phone["justify"] = "left"
+        self.label_phone["text"] = "Phone mnuber:"
+        self.label_phone.place(x=100, y=280, width=300, height=50)
 
-        self.GMessage_571=tk.Message(self)
+        self.message_phone=tk.Message(self)
         ft = tkFont.Font(family='Times',size=18)
-        self.GMessage_571["font"] = ft
-        self.GMessage_571["fg"] = "#333333"
-        self.GMessage_571["justify"] = "center"
-        self.GMessage_571["text"] = self.master.app.logged_user.get_password()
-        self.GMessage_571.place(x=400,y=280,width=300,height=50)
+        self.message_phone["font"] = ft
+        self.message_phone["fg"] = "#333333"
+        self.message_phone["justify"] = "center"
+        self.message_phone["text"] = self.master.app.logged_user.get_phone_num()
+        self.message_phone.place(x=400, y=280, width=300, height=50)
 
-        self.GLabel_723=tk.Label(self)
+        self.label_pin=tk.Label(self)
         ft = tkFont.Font(family='Times',size=18)
-        self.GLabel_723["font"] = ft
-        self.GLabel_723["fg"] = "#333333"
-        self.GLabel_723["justify"] = "left"
-        self.GLabel_723["text"] = "Phone mnuber:"
-        self.GLabel_723.place(x=100,y=360,width=300,height=50)
+        self.label_pin["font"] = ft
+        self.label_pin["fg"] = "#333333"
+        self.label_pin["justify"] = "left"
+        self.label_pin["text"] = "PIN:"
+        self.label_pin.place(x=100, y=360, width=300, height=50)
 
-        self.GMessage_936=tk.Message(self)
+        self.message_pin=tk.Message(self)
         ft = tkFont.Font(family='Times',size=18)
-        self.GMessage_936["font"] = ft
-        self.GMessage_936["fg"] = "#333333"
-        self.GMessage_936["justify"] = "center"
-        self.GMessage_936["text"] = self.master.app.logged_user.get_phone_num()
-        self.GMessage_936.place(x=400,y=360,width=300,height=50)
+        self.message_pin["font"] = ft
+        self.message_pin["fg"] = "#333333"
+        self.message_pin["justify"] = "center"
+        self.message_pin["text"] = self.master.app.logged_user.get_pin()
+        self.message_pin.place(x=400, y=360, width=300, height=50)
 
-        self.GLabel_49=tk.Label(self)
-        ft = tkFont.Font(family='Times',size=18)
-        self.GLabel_49["font"] = ft
-        self.GLabel_49["fg"] = "#333333"
-        self.GLabel_49["justify"] = "left"
-        self.GLabel_49["text"] = "PIN:"
-        self.GLabel_49.place(x=100,y=440,width=300,height=50)
-
-        self.GMessage_446=tk.Message(self)
-        ft = tkFont.Font(family='Times',size=18)
-        self.GMessage_446["font"] = ft
-        self.GMessage_446["fg"] = "#333333"
-        self.GMessage_446["justify"] = "center"
-        self.GMessage_446["text"] = self.master.app.logged_user.get_pin()
-        self.GMessage_446.place(x=400,y=440,width=300,height=50)
-
-    def GButton_209_command(self):
-        print("command")
-
-
+    def move_back(self):
+        self.destroy()
