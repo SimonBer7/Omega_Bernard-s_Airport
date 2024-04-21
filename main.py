@@ -2,6 +2,7 @@
 from src.data.database import Database
 from src.logic.aplication import Application
 
+
 def main():
     database = Database()
     app = Application(database)
