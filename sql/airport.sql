@@ -55,7 +55,7 @@ create table reservation(
 	date datetime not null,
 	price int not null check(price > 0)
 );
-
+COMMIT	
 
 
 /* views*/
@@ -90,5 +90,103 @@ select reservation.pin as pin, flight.fly_number as fly_number, passenger.name a
 from reservation inner join passenger ON reservation.passenger_id = passenger.id inner join flight ON reservation.flight_id = flight.id inner join destination ON flight.destination_id = destination.id inner join plane ON flight.plane_id = plane.id inner join pilot ON flight.pilot_id = pilot.id;
 COMMIT	
 
-insert into passenger(name, email, password, phone_num, pin) values('Karel', 'kaja@gmail.com', '99763235b36a8ca5275181f7428b88ba01760ef610e555f01dac4264ad56e0f4', '777666555', '010203/4748');
+/*procedure for print user's flights*/
+go
+create procedure print_user_flights @pin varchar(11)
+as
+begin
+select flight.fly_number as fly_number, destination.country as country, plane.name as plane, pilot.name as pilot, flight.date_leaving, flight.date_arriving, flight.price as price
+from reservation inner join passenger ON reservation.passenger_id = passenger.id inner join flight ON reservation.flight_id = flight.id inner join destination ON flight.destination_id = destination.id inner join plane ON flight.plane_id = plane.id inner join pilot ON flight.pilot_id = pilot.id
+where passenger.pin = @pin;
+end
+go
+
+go
+CREATE PROCEDURE print_reservations
+    @passenger_id INT
+AS
+BEGIN
+    SELECT 
+        reservation.pin AS reservation_pin,
+		passenger.name AS passenger_name,
+        destination.country AS destination_country,
+        destination.capital AS destination_capital,
+        destination.avg_temp AS destination_avg_temp,
+        plane.name AS plane_name,
+        pilot.name AS pilot_name,
+        flight.date_leaving AS date_leaving,
+        flight.date_arriving AS date_arriving,
+        reservation.date AS reservation_date,
+		reservation.price as price
+    FROM 
+        reservation 
+    INNER JOIN 
+        flight ON reservation.flight_id = flight.id 
+    INNER JOIN 
+        destination ON flight.destination_id = destination.id 
+    INNER JOIN 
+        plane ON flight.plane_id = plane.id 
+    INNER JOIN 
+        pilot ON flight.pilot_id = pilot.id
+    INNER JOIN
+        passenger ON reservation.passenger_id = passenger.id
+    WHERE 
+        reservation.passenger_id = @passenger_id;
+END
+go
+
+go
+CREATE PROCEDURE print_reservation_detail
+    @passenger_id INT,
+	@reservation_pin INT
+AS
+BEGIN
+    SELECT 
+        reservation.pin AS reservation_pin,
+		passenger.name AS passenger_name,
+        destination.country AS destination_country,
+        destination.capital AS destination_capital,
+        destination.avg_temp AS destination_avg_temp,
+        plane.name AS plane_name,
+        pilot.name AS pilot_name,
+        flight.date_leaving AS date_leaving,
+        flight.date_arriving AS date_arriving,
+        reservation.date AS reservation_date,
+		reservation.price as price
+    FROM 
+        reservation 
+    INNER JOIN 
+        flight ON reservation.flight_id = flight.id 
+    INNER JOIN 
+        destination ON flight.destination_id = destination.id 
+    INNER JOIN 
+        plane ON flight.plane_id = plane.id 
+    INNER JOIN 
+        pilot ON flight.pilot_id = pilot.id
+    INNER JOIN
+        passenger ON reservation.passenger_id = passenger.id
+    WHERE 
+        reservation.passenger_id = @passenger_id and reservation.pin = @reservation_pin;
+END
+go
+
+drop table reservation;
+drop table flight;
+drop table destination;
+drop table plane;
+drop table pilot;
+drop table passenger;
+
 delete from passenger;
+delete from pilot;
+delete from plane;
+delete from destination;
+delete from flight;
+delete from reservation;
+
+select * from passenger;
+select * from pilot;
+select * from plane;
+select * from destination;
+select * from flight;
+select * from reservation;
