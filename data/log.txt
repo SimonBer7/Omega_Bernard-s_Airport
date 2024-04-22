@@ -1,0 +1,509 @@
+[2024-04-18 15:16:59] Error inserting passenger into the database: ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of UNIQUE KEY constraint 'UQ__passenge__DD37D92DD7564FA9'. Cannot insert duplicate key in object 'dbo.passenger'. The duplicate key value is (010203/0405). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+[2024-04-18 15:18:01] Passenger was created :)
+[2024-04-19 16:57:16] Passenger was created :)
+[2024-04-19 16:58:47] Passenger was created :)
+[2024-04-19 16:59:07] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-19 16:59:09] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-19 17:14:39] No passengers selected
+[2024-04-19 17:14:42] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-19 17:16:02] Passenger was deleted by admin
+[2024-04-19 17:16:08] No passengers selected
+[2024-04-19 17:16:12] Only one passenger should be selected
+[2024-04-19 17:27:58] No pilot selected
+[2024-04-19 17:28:02] Only one pilot should be selected
+[2024-04-19 17:28:08] Pilot was deleted.
+[2024-04-19 17:37:36] Flight was deleted
+[2024-04-19 17:37:36] Pilot was deleted.
+[2024-04-19 17:51:01] Reservation was created :)
+[2024-04-19 17:51:36] Reservation was deleted
+[2024-04-19 17:51:36] Passenger was deleted by admin
+[2024-04-19 19:58:01] Pilot was inserted
+[2024-04-19 19:59:52] Pilot was deleted.
+[2024-04-19 20:00:07] Pilot was inserted
+[2024-04-19 20:01:05] Pilot was deleted.
+[2024-04-19 20:01:34] Pilot was inserted
+[2024-04-19 20:02:16] Pilot was deleted.
+[2024-04-19 20:02:32] Age must be an integer.
+[2024-04-19 20:17:52] Passenger was created :)
+[2024-04-19 20:18:22] Reservation was created :)
+[2024-04-19 20:19:25] Only one flight should be selected
+[2024-04-19 20:20:32] Reservation was deleted
+[2024-04-19 20:20:32] Passenger was deleted by admin
+[2024-04-19 20:21:21] Passenger was created :)
+[2024-04-19 20:22:14] Reservation was deleted
+[2024-04-19 20:22:14] Passenger was deleted by admin
+[2024-04-19 20:23:24] Passenger was created :)
+[2024-04-19 20:23:37] Pilot was inserted
+[2024-04-19 20:23:37] Pilot was inserted
+[2024-04-19 20:23:37] Pilot was inserted
+[2024-04-19 20:23:37] Pilot was inserted
+[2024-04-19 20:23:37] Pilot was inserted
+[2024-04-19 20:23:37] Pilot was inserted
+[2024-04-19 20:23:37] Pilot was inserted
+[2024-04-19 20:23:37] Pilot was inserted
+[2024-04-19 20:23:37] Plane was inserted
+[2024-04-19 20:23:38] Plane was inserted
+[2024-04-19 20:23:38] Plane was inserted
+[2024-04-19 20:23:38] Plane was inserted
+[2024-04-19 20:23:38] Plane was inserted
+[2024-04-19 20:23:38] Plane was inserted
+[2024-04-19 20:23:38] Plane was inserted
+[2024-04-19 20:23:38] Plane was inserted
+[2024-04-19 20:23:38] Destination inserted successfully.
+[2024-04-19 20:23:38] Destination inserted successfully.
+[2024-04-19 20:23:38] Destination inserted successfully.
+[2024-04-19 20:23:38] Destination inserted successfully.
+[2024-04-19 20:23:38] Destination inserted successfully.
+[2024-04-19 20:23:38] Destination inserted successfully.
+[2024-04-19 20:23:38] Destination inserted successfully.
+[2024-04-19 20:23:38] Destination inserted successfully.
+[2024-04-19 20:23:39] FLight was created
+[2024-04-19 20:23:39] FLight was created
+[2024-04-19 20:23:39] FLight was created
+[2024-04-19 20:23:39] FLight was created
+[2024-04-19 20:23:39] FLight was created
+[2024-04-19 20:23:39] FLight was created
+[2024-04-19 20:23:39] FLight was created
+[2024-04-19 20:23:39] FLight was created
+[2024-04-19 20:23:39] Passenger was created :)
+[2024-04-19 20:25:12] Error with the selected passenger
+[2024-04-19 20:54:02] Plane was inserted
+[2024-04-19 20:54:59] Plane was inserted
+[2024-04-19 20:56:44] Age must be an integer.
+[2024-04-19 20:58:56] Age must be an integer.
+[2024-04-19 21:12:11] Plane was deleted.
+[2024-04-19 21:16:52] Plane was deleted.
+[2024-04-19 21:16:56] Plane was deleted.
+[2024-04-19 21:49:46] Destination inserted successfully.
+[2024-04-19 21:50:52] Age must be an integer.
+[2024-04-19 21:51:06] Destination inserted successfully.
+[2024-04-19 21:51:46] Age must be an integer.
+[2024-04-19 21:52:15] Destination inserted successfully.
+[2024-04-19 21:53:16] Destination inserted successfully.
+[2024-04-19 21:53:31] Age must be an integer.
+[2024-04-19 21:54:21] Age must be an integer.
+[2024-04-19 21:57:34] Destination deleted successfully.
+[2024-04-19 21:59:02] Destination deleted successfully.
+[2024-04-19 21:59:10] Only one plane should be selected
+[2024-04-19 21:59:13] Only one plane should be selected
+[2024-04-19 21:59:17] No plane selected
+[2024-04-19 21:59:22] Destination deleted successfully.
+[2024-04-19 22:06:58] Flight was deleted
+[2024-04-19 22:09:23] Reservation was created :)
+[2024-04-19 22:09:32] Reservation was created :)
+[2024-04-19 22:09:36] Reservation was created :)
+[2024-04-19 22:10:18] Reservation was deleted
+[2024-04-19 22:15:04] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-19 22:15:36] Passenger was created :)
+[2024-04-19 22:16:02] Reservation was created :)
+[2024-04-19 22:20:26] Reservation was deleted
+[2024-04-19 22:20:27] Passenger was deleted by admin
+[2024-04-20 11:55:44] Pilot was inserted
+[2024-04-20 11:55:45] Pilot was inserted
+[2024-04-20 11:55:45] Pilot was inserted
+[2024-04-20 11:55:45] Pilot was inserted
+[2024-04-20 11:55:45] Pilot was inserted
+[2024-04-20 11:55:45] Pilot was inserted
+[2024-04-20 11:55:45] Pilot was inserted
+[2024-04-20 11:55:45] Pilot was inserted
+[2024-04-20 11:55:45] Plane was inserted
+[2024-04-20 11:55:46] Plane was inserted
+[2024-04-20 11:55:46] Plane was inserted
+[2024-04-20 11:55:46] Plane was inserted
+[2024-04-20 11:55:46] Plane was inserted
+[2024-04-20 11:55:46] Plane was inserted
+[2024-04-20 11:55:46] Plane was inserted
+[2024-04-20 11:55:46] Plane was inserted
+[2024-04-20 11:55:46] Destination inserted successfully.
+[2024-04-20 11:55:46] Destination inserted successfully.
+[2024-04-20 11:55:46] Destination inserted successfully.
+[2024-04-20 11:55:46] Destination inserted successfully.
+[2024-04-20 11:55:46] Destination inserted successfully.
+[2024-04-20 11:55:46] Destination inserted successfully.
+[2024-04-20 11:55:46] Destination inserted successfully.
+[2024-04-20 11:55:47] Destination inserted successfully.
+[2024-04-20 11:55:47] FLight was created
+[2024-04-20 11:55:47] FLight was created
+[2024-04-20 11:55:47] FLight was created
+[2024-04-20 11:55:47] FLight was created
+[2024-04-20 11:56:32] Passenger was created :)
+[2024-04-20 11:56:59] Reservation was created :)
+[2024-04-20 11:57:26] Error, there is some problem with login
+[2024-04-20 12:00:13] Pilot was inserted
+[2024-04-20 12:00:13] Pilot was inserted
+[2024-04-20 12:00:13] Pilot was inserted
+[2024-04-20 12:00:13] Pilot was inserted
+[2024-04-20 12:00:13] Pilot was inserted
+[2024-04-20 12:00:13] Pilot was inserted
+[2024-04-20 12:00:13] Pilot was inserted
+[2024-04-20 12:00:14] Pilot was inserted
+[2024-04-20 12:00:14] Plane was inserted
+[2024-04-20 12:00:14] Plane was inserted
+[2024-04-20 12:00:14] Plane was inserted
+[2024-04-20 12:00:14] Plane was inserted
+[2024-04-20 12:00:14] Plane was inserted
+[2024-04-20 12:00:14] Plane was inserted
+[2024-04-20 12:00:14] Plane was inserted
+[2024-04-20 12:00:14] Plane was inserted
+[2024-04-20 12:00:14] Destination inserted successfully.
+[2024-04-20 12:00:14] Destination inserted successfully.
+[2024-04-20 12:00:15] Destination inserted successfully.
+[2024-04-20 12:00:15] Destination inserted successfully.
+[2024-04-20 12:00:15] Destination inserted successfully.
+[2024-04-20 12:00:15] Destination inserted successfully.
+[2024-04-20 12:00:15] Destination inserted successfully.
+[2024-04-20 12:00:15] Destination inserted successfully.
+[2024-04-20 12:00:15] FLight was created
+[2024-04-20 12:00:15] FLight was created
+[2024-04-20 12:00:15] FLight was created
+[2024-04-20 12:00:15] FLight was created
+[2024-04-20 12:00:15] FLight was created
+[2024-04-20 12:00:15] FLight was created
+[2024-04-20 12:00:15] FLight was created
+[2024-04-20 12:00:16] FLight was created
+[2024-04-20 12:00:16] Passenger was created :)
+[2024-04-20 12:00:52] Passenger was created :)
+[2024-04-20 12:01:11] Reservation was created :)
+[2024-04-20 13:29:16] Error, there is some problem with login
+[2024-04-20 13:50:41] Error, there is some problem with login
+[2024-04-20 13:51:10] Error, there is some problem with login
+[2024-04-20 13:53:18] Error, there is some problem with login
+[2024-04-20 13:53:33] Error, there is some problem with login
+[2024-04-20 13:53:44] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-20 13:54:41] Reservation was created :)
+[2024-04-20 14:18:36] Passenger was created :)
+[2024-04-20 20:55:33] Passenger was created :)
+[2024-04-20 20:56:23] Reservation was created :)
+[2024-04-20 21:40:02] Reservation was created :)
+[2024-04-20 22:09:00] Reservation was deleted
+[2024-04-20 22:09:00] Passenger was deleted by admin
+[2024-04-20 22:10:28] Pilot was inserted
+[2024-04-20 22:10:28] Pilot was inserted
+[2024-04-20 22:10:28] Pilot was inserted
+[2024-04-20 22:10:28] Pilot was inserted
+[2024-04-20 22:10:28] Pilot was inserted
+[2024-04-20 22:10:28] Pilot was inserted
+[2024-04-20 22:10:28] Pilot was inserted
+[2024-04-20 22:10:28] Pilot was inserted
+[2024-04-20 22:10:28] Plane was inserted
+[2024-04-20 22:10:28] Plane was inserted
+[2024-04-20 22:10:28] Plane was inserted
+[2024-04-20 22:10:29] Plane was inserted
+[2024-04-20 22:10:29] Plane was inserted
+[2024-04-20 22:10:29] Plane was inserted
+[2024-04-20 22:10:29] Plane was inserted
+[2024-04-20 22:10:29] Plane was inserted
+[2024-04-20 22:10:29] Destination inserted successfully.
+[2024-04-20 22:10:29] Destination inserted successfully.
+[2024-04-20 22:10:29] Destination inserted successfully.
+[2024-04-20 22:10:29] Destination inserted successfully.
+[2024-04-20 22:10:29] Destination inserted successfully.
+[2024-04-20 22:10:30] Destination inserted successfully.
+[2024-04-20 22:10:30] Destination inserted successfully.
+[2024-04-20 22:10:30] Destination inserted successfully.
+[2024-04-20 22:10:30] FLight was created
+[2024-04-20 22:10:30] FLight was created
+[2024-04-20 22:10:30] FLight was created
+[2024-04-20 22:10:30] FLight was created
+[2024-04-20 22:10:30] FLight was created
+[2024-04-20 22:10:30] FLight was created
+[2024-04-20 22:10:30] FLight was created
+[2024-04-20 22:10:30] FLight was created
+[2024-04-20 22:10:30] Passenger was created :)
+[2024-04-20 22:43:42] Passenger was created :)
+[2024-04-20 23:42:15] Pilot was inserted
+[2024-04-20 23:42:16] Pilot was inserted
+[2024-04-20 23:42:16] Pilot was inserted
+[2024-04-20 23:42:16] Pilot was inserted
+[2024-04-20 23:42:16] Pilot was inserted
+[2024-04-20 23:42:16] Pilot was inserted
+[2024-04-20 23:42:16] Pilot was inserted
+[2024-04-20 23:42:16] Pilot was inserted
+[2024-04-20 23:42:16] Plane was inserted
+[2024-04-20 23:42:16] Plane was inserted
+[2024-04-20 23:42:16] Plane was inserted
+[2024-04-20 23:42:16] Plane was inserted
+[2024-04-20 23:42:16] Plane was inserted
+[2024-04-20 23:42:16] Plane was inserted
+[2024-04-20 23:42:16] Plane was inserted
+[2024-04-20 23:42:16] Plane was inserted
+[2024-04-20 23:42:17] Destination inserted successfully.
+[2024-04-20 23:42:17] Destination inserted successfully.
+[2024-04-20 23:42:17] Destination inserted successfully.
+[2024-04-20 23:42:17] Destination inserted successfully.
+[2024-04-20 23:42:17] Destination inserted successfully.
+[2024-04-20 23:42:17] Destination inserted successfully.
+[2024-04-20 23:42:17] Destination inserted successfully.
+[2024-04-20 23:42:17] Destination inserted successfully.
+[2024-04-20 23:42:17] FLight was created
+[2024-04-20 23:42:17] FLight was created
+[2024-04-20 23:42:17] FLight was created
+[2024-04-20 23:42:17] FLight was created
+[2024-04-20 23:42:17] FLight was created
+[2024-04-20 23:42:17] FLight was created
+[2024-04-20 23:42:17] FLight was created
+[2024-04-20 23:42:17] FLight was created
+[2024-04-20 23:42:18] Passenger was created :)
+[2024-04-20 23:44:44] Error with the selected passenger
+[2024-04-20 23:45:26] Passenger was created :)
+[2024-04-21 11:15:07] Error inserting passenger into the database: ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of UNIQUE KEY constraint 'UQ__passenge__DD37D92DE1D16D63'. Cannot insert duplicate key in object 'dbo.passenger'. The duplicate key value is (050307/4914). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+[2024-04-21 11:15:20] Error, there is some problem with login
+[2024-04-21 11:18:43] Reservation was created :)
+[2024-04-21 11:36:23] Database was deleted.
+[2024-04-21 11:36:23] Database was created.
+[2024-04-21 11:36:23] Pilot was inserted
+[2024-04-21 11:36:23] Pilot was inserted
+[2024-04-21 11:36:23] Pilot was inserted
+[2024-04-21 11:36:23] Pilot was inserted
+[2024-04-21 11:36:24] Pilot was inserted
+[2024-04-21 11:36:24] Pilot was inserted
+[2024-04-21 11:36:24] Pilot was inserted
+[2024-04-21 11:36:24] Pilot was inserted
+[2024-04-21 11:36:24] Plane was inserted
+[2024-04-21 11:36:24] Plane was inserted
+[2024-04-21 11:36:24] Plane was inserted
+[2024-04-21 11:36:24] Plane was inserted
+[2024-04-21 11:36:24] Plane was inserted
+[2024-04-21 11:36:24] Plane was inserted
+[2024-04-21 11:36:24] Plane was inserted
+[2024-04-21 11:36:24] Plane was inserted
+[2024-04-21 11:36:24] Destination inserted successfully.
+[2024-04-21 11:36:24] Destination inserted successfully.
+[2024-04-21 11:36:25] Destination inserted successfully.
+[2024-04-21 11:36:25] Destination inserted successfully.
+[2024-04-21 11:36:25] Destination inserted successfully.
+[2024-04-21 11:36:25] Destination inserted successfully.
+[2024-04-21 11:36:25] Destination inserted successfully.
+[2024-04-21 11:36:25] Destination inserted successfully.
+[2024-04-21 11:36:25] FLight was created
+[2024-04-21 11:36:25] FLight was created
+[2024-04-21 11:36:25] FLight was created
+[2024-04-21 11:36:25] FLight was created
+[2024-04-21 11:36:25] FLight was created
+[2024-04-21 11:36:25] FLight was created
+[2024-04-21 11:36:25] FLight was created
+[2024-04-21 11:36:25] FLight was created
+[2024-04-21 11:36:26] Passenger was created :)
+[2024-04-21 11:37:24] Passenger was created :)
+[2024-04-21 11:40:34] Passenger was created :)
+[2024-04-21 11:41:19] Reservation was created :)
+[2024-04-21 11:42:29] Passenger was created :)
+[2024-04-21 11:42:37] Reservation was deleted
+[2024-04-21 11:42:37] Passenger was deleted by admin
+[2024-04-21 11:42:56] Pilot was deleted.
+[2024-04-21 11:43:07] Error with deleting
+[2024-04-21 11:43:15] Error with deleting
+[2024-04-21 11:43:22] Error with deleting
+[2024-04-21 11:43:42] Flight was deleted
+[2024-04-21 11:43:46] Reservation was deleted
+[2024-04-21 11:43:53] Database was deleted.
+[2024-04-21 11:43:54] Database was created.
+[2024-04-21 11:43:54] Pilot was inserted
+[2024-04-21 11:43:54] Pilot was inserted
+[2024-04-21 11:43:54] Pilot was inserted
+[2024-04-21 11:43:54] Pilot was inserted
+[2024-04-21 11:43:54] Pilot was inserted
+[2024-04-21 11:43:54] Pilot was inserted
+[2024-04-21 11:43:54] Pilot was inserted
+[2024-04-21 11:43:54] Pilot was inserted
+[2024-04-21 11:43:54] Plane was inserted
+[2024-04-21 11:43:55] Plane was inserted
+[2024-04-21 11:43:55] Plane was inserted
+[2024-04-21 11:43:55] Plane was inserted
+[2024-04-21 11:43:55] Plane was inserted
+[2024-04-21 11:43:55] Plane was inserted
+[2024-04-21 11:43:55] Plane was inserted
+[2024-04-21 11:43:55] Plane was inserted
+[2024-04-21 11:43:55] Destination inserted successfully.
+[2024-04-21 11:43:55] Destination inserted successfully.
+[2024-04-21 11:43:55] Destination inserted successfully.
+[2024-04-21 11:43:55] Destination inserted successfully.
+[2024-04-21 11:43:55] Destination inserted successfully.
+[2024-04-21 11:43:55] Destination inserted successfully.
+[2024-04-21 11:43:55] Destination inserted successfully.
+[2024-04-21 11:43:55] Destination inserted successfully.
+[2024-04-21 11:43:56] FLight was created
+[2024-04-21 11:43:56] FLight was created
+[2024-04-21 11:43:56] FLight was created
+[2024-04-21 11:43:56] FLight was created
+[2024-04-21 11:43:56] FLight was created
+[2024-04-21 11:43:56] FLight was created
+[2024-04-21 11:43:56] FLight was created
+[2024-04-21 11:43:56] FLight was created
+[2024-04-21 11:43:56] Passenger was created :)
+[2024-04-21 11:44:09] Error with deleting
+[2024-04-21 11:44:59] Error with deleting
+[2024-04-21 11:53:00] Plane was deleted.
+[2024-04-21 11:53:08] Error with deleting
+[2024-04-21 11:53:15] Plane was deleted.
+[2024-04-21 11:53:30] Error with deleting
+[2024-04-21 12:01:40] Flight was deleted
+[2024-04-21 12:01:46] Destination deleted successfully.
+[2024-04-21 12:09:46] Error with deleting
+[2024-04-21 12:09:55] Flight was deleted
+[2024-04-21 12:09:58] Destination deleted successfully.
+[2024-04-21 12:10:02] No plane selected
+[2024-04-21 12:10:04] No plane selected
+[2024-04-21 12:10:08] Error with deleting
+[2024-04-21 12:10:32] Database was deleted.
+[2024-04-21 12:10:32] Database was created.
+[2024-04-21 12:10:32] Pilot was inserted
+[2024-04-21 12:10:32] Pilot was inserted
+[2024-04-21 12:10:33] Pilot was inserted
+[2024-04-21 12:10:33] Pilot was inserted
+[2024-04-21 12:10:33] Pilot was inserted
+[2024-04-21 12:10:33] Pilot was inserted
+[2024-04-21 12:10:33] Pilot was inserted
+[2024-04-21 12:10:33] Pilot was inserted
+[2024-04-21 12:10:33] Plane was inserted
+[2024-04-21 12:10:33] Plane was inserted
+[2024-04-21 12:10:33] Plane was inserted
+[2024-04-21 12:10:33] Plane was inserted
+[2024-04-21 12:10:33] Plane was inserted
+[2024-04-21 12:10:33] Plane was inserted
+[2024-04-21 12:10:33] Plane was inserted
+[2024-04-21 12:10:33] Plane was inserted
+[2024-04-21 12:10:34] Destination inserted successfully.
+[2024-04-21 12:10:34] Destination inserted successfully.
+[2024-04-21 12:10:34] Destination inserted successfully.
+[2024-04-21 12:10:34] Destination inserted successfully.
+[2024-04-21 12:10:34] Destination inserted successfully.
+[2024-04-21 12:10:34] Destination inserted successfully.
+[2024-04-21 12:10:34] Destination inserted successfully.
+[2024-04-21 12:10:34] Destination inserted successfully.
+[2024-04-21 12:10:34] FLight was created
+[2024-04-21 12:10:34] FLight was created
+[2024-04-21 12:10:34] FLight was created
+[2024-04-21 12:10:34] FLight was created
+[2024-04-21 12:10:34] FLight was created
+[2024-04-21 12:10:35] FLight was created
+[2024-04-21 12:10:35] FLight was created
+[2024-04-21 12:10:35] FLight was created
+[2024-04-21 12:10:35] Passenger was created :)
+[2024-04-22 12:05:12] Error: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+[2024-04-22 12:05:13] Error reading data from files: cannot access local variable 'cursor' where it is not associated with a value
+[2024-04-22 12:06:08] Error inserting passenger into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+[2024-04-22 12:06:57] Error inserting passenger into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+[2024-04-22 12:07:54] Passenger was created :)
+[2024-04-22 12:08:30] Reservation was created :)
+[2024-04-22 12:09:57] Reservation was deleted
+[2024-04-22 12:09:58] Passenger was deleted by admin
+[2024-04-22 12:12:45] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-22 12:13:10] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-22 12:14:13] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-22 12:28:43] Passenger was created :)
+[2024-04-22 12:29:23] Reservation was created :)
+[2024-04-22 12:31:54] Passenger was created :)
+[2024-04-22 12:32:35] Only one flight should be selected
+[2024-04-22 12:32:45] Reservation was created :)
+[2024-04-22 12:33:15] Reservation was deleted
+[2024-04-22 12:34:13] Reservation was deleted
+[2024-04-22 12:34:13] Passenger was deleted by admin
+[2024-04-22 12:34:18] Reservation was deleted
+[2024-04-22 12:34:18] Passenger was deleted by admin
+[2024-04-22 12:34:23] Reservation was deleted
+[2024-04-22 12:34:24] Passenger was deleted by admin
+[2024-04-22 12:35:28] Passenger was created :)
+[2024-04-22 12:42:22] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-22 12:48:56] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-22 12:50:22] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-22 12:51:38] Passenger was created :)
+[2024-04-22 12:51:58] Reservation was deleted
+[2024-04-22 12:51:59] Passenger was deleted by admin
+[2024-04-22 12:52:08] Database was deleted.
+[2024-04-22 12:52:09] Database was created.
+[2024-04-22 12:52:11] Pilot was inserted
+[2024-04-22 12:52:11] Pilot was inserted
+[2024-04-22 12:52:11] Pilot was inserted
+[2024-04-22 12:52:12] Pilot was inserted
+[2024-04-22 12:52:12] Pilot was inserted
+[2024-04-22 12:52:13] Pilot was inserted
+[2024-04-22 12:52:13] Pilot was inserted
+[2024-04-22 12:52:14] Pilot was inserted
+[2024-04-22 12:52:14] Plane was inserted
+[2024-04-22 12:52:14] Plane was inserted
+[2024-04-22 12:52:15] Plane was inserted
+[2024-04-22 12:52:15] Plane was inserted
+[2024-04-22 12:52:16] Plane was inserted
+[2024-04-22 12:52:16] Plane was inserted
+[2024-04-22 12:52:16] Plane was inserted
+[2024-04-22 12:52:17] Plane was inserted
+[2024-04-22 12:52:17] Destination inserted successfully.
+[2024-04-22 12:52:18] Destination inserted successfully.
+[2024-04-22 12:52:18] Destination inserted successfully.
+[2024-04-22 12:52:18] Destination inserted successfully.
+[2024-04-22 12:52:19] Destination inserted successfully.
+[2024-04-22 12:52:19] Destination inserted successfully.
+[2024-04-22 12:52:20] Destination inserted successfully.
+[2024-04-22 12:52:20] Destination inserted successfully.
+[2024-04-22 12:52:20] Error, while loading data Destination.__init__() missing 3 required positional arguments: 'country', 'capital', and 'avg_temp'
+[2024-04-22 12:52:33] Error, there is some problem with login
+[2024-04-22 12:52:45] Error, there is some problem with login
+[2024-04-22 12:53:08] Pilot was inserted
+[2024-04-22 12:53:09] Pilot was inserted
+[2024-04-22 12:53:09] Pilot was inserted
+[2024-04-22 12:53:10] Pilot was inserted
+[2024-04-22 12:53:10] Pilot was inserted
+[2024-04-22 12:53:10] Pilot was inserted
+[2024-04-22 12:53:11] Pilot was inserted
+[2024-04-22 12:53:11] Pilot was inserted
+[2024-04-22 12:53:12] Plane was inserted
+[2024-04-22 12:53:12] Plane was inserted
+[2024-04-22 12:53:13] Plane was inserted
+[2024-04-22 12:53:13] Plane was inserted
+[2024-04-22 12:53:14] Plane was inserted
+[2024-04-22 12:53:14] Plane was inserted
+[2024-04-22 12:53:14] Plane was inserted
+[2024-04-22 12:53:15] Plane was inserted
+[2024-04-22 12:53:15] Destination inserted successfully.
+[2024-04-22 12:53:16] Destination inserted successfully.
+[2024-04-22 12:53:16] Destination inserted successfully.
+[2024-04-22 12:53:16] Destination inserted successfully.
+[2024-04-22 12:53:17] Destination inserted successfully.
+[2024-04-22 12:53:17] Destination inserted successfully.
+[2024-04-22 12:53:18] Destination inserted successfully.
+[2024-04-22 12:53:18] Destination inserted successfully.
+[2024-04-22 12:53:18] Flight was created
+[2024-04-22 12:53:19] Flight was created
+[2024-04-22 12:53:19] Flight was created
+[2024-04-22 12:53:20] Flight was created
+[2024-04-22 12:53:20] Flight was created
+[2024-04-22 12:53:21] Flight was created
+[2024-04-22 12:53:21] Flight was created
+[2024-04-22 12:53:21] Flight was created
+[2024-04-22 12:53:22] Passenger was created :)
+[2024-04-22 12:53:35] Database was deleted.
+[2024-04-22 12:53:36] Database was created.
+[2024-04-22 12:53:37] Pilot was inserted
+[2024-04-22 12:53:38] Pilot was inserted
+[2024-04-22 12:53:38] Pilot was inserted
+[2024-04-22 12:53:39] Pilot was inserted
+[2024-04-22 12:53:39] Pilot was inserted
+[2024-04-22 12:53:39] Pilot was inserted
+[2024-04-22 12:53:39] Pilot was inserted
+[2024-04-22 12:53:39] Pilot was inserted
+[2024-04-22 12:53:39] Plane was inserted
+[2024-04-22 12:53:40] Plane was inserted
+[2024-04-22 12:53:40] Plane was inserted
+[2024-04-22 12:53:40] Plane was inserted
+[2024-04-22 12:53:40] Plane was inserted
+[2024-04-22 12:53:41] Plane was inserted
+[2024-04-22 12:53:41] Plane was inserted
+[2024-04-22 12:53:41] Plane was inserted
+[2024-04-22 12:53:41] Destination inserted successfully.
+[2024-04-22 12:53:41] Destination inserted successfully.
+[2024-04-22 12:53:42] Destination inserted successfully.
+[2024-04-22 12:53:42] Destination inserted successfully.
+[2024-04-22 12:53:42] Destination inserted successfully.
+[2024-04-22 12:53:42] Destination inserted successfully.
+[2024-04-22 12:53:42] Destination inserted successfully.
+[2024-04-22 12:53:43] Destination inserted successfully.
+[2024-04-22 12:53:43] Flight was created
+[2024-04-22 12:53:43] Flight was created
+[2024-04-22 12:53:43] Flight was created
+[2024-04-22 12:53:44] Flight was created
+[2024-04-22 12:53:44] Flight was created
+[2024-04-22 12:53:44] Flight was created
+[2024-04-22 12:53:44] Flight was created
+[2024-04-22 12:53:44] Flight was created
+[2024-04-22 12:53:44] Passenger was created :)
