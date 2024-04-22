@@ -147,7 +147,7 @@ class Passenger:
         - bool: True if all information is valid, False otherwise.
         """
 
-        name_pattern = re.compile(r'^[a-zA-Z]{3,}$')
+        name_pattern = re.compile(r'^[a-zA-Z\s.]{3,}$')
         if not name_pattern.match(name):
             return False
 
