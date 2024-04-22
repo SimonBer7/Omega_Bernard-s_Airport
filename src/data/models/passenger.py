@@ -112,7 +112,7 @@ class Passenger:
         - phone_num (str): The phone number of the passenger.
         - pin (str): The PIN of the passenger.
         """
-        if self.check_info(email, phone_num, pin):
+        if self.check_info(name, email, phone_num, pin):
             self.name = name
             self.email = email
             self.password = password
@@ -134,7 +134,7 @@ class Passenger:
         return hashed_password
 
     @classmethod
-    def check_info(cls, email, phone_num, pin):
+    def check_info(cls, name, email, phone_num, pin):
         """
         Class method that checks if the provided email, phone number, and PIN are valid.
 
@@ -146,6 +146,11 @@ class Passenger:
         Returns:
         - bool: True if all information is valid, False otherwise.
         """
+
+        name_pattern = re.compile(r'^[a-zA-Z]{3,}$')
+        if not name_pattern.match(name):
+            return False
+
         email_pattern = re.compile(r'^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$')
         if not email_pattern.match(email):
             return False
