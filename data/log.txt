@@ -380,3 +380,28 @@
 [2024-04-21 12:10:35] FLight was created
 [2024-04-21 12:10:35] FLight was created
 [2024-04-21 12:10:35] Passenger was created :)
+[2024-04-22 12:05:12] Error: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+[2024-04-22 12:05:13] Error reading data from files: cannot access local variable 'cursor' where it is not associated with a value
+[2024-04-22 12:06:08] Error inserting passenger into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+[2024-04-22 12:06:57] Error inserting passenger into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+[2024-04-22 12:07:54] Passenger was created :)
+[2024-04-22 12:08:30] Reservation was created :)
+[2024-04-22 12:09:57] Reservation was deleted
+[2024-04-22 12:09:58] Passenger was deleted by admin
+[2024-04-22 12:12:45] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-22 12:13:10] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-22 12:14:13] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
+[2024-04-22 12:28:43] Passenger was created :)
+[2024-04-22 12:29:23] Reservation was created :)
+[2024-04-22 12:31:54] Passenger was created :)
+[2024-04-22 12:32:35] Only one flight should be selected
+[2024-04-22 12:32:45] Reservation was created :)
+[2024-04-22 12:33:15] Reservation was deleted
+[2024-04-22 12:34:13] Reservation was deleted
+[2024-04-22 12:34:13] Passenger was deleted by admin
+[2024-04-22 12:34:18] Reservation was deleted
+[2024-04-22 12:34:18] Passenger was deleted by admin
+[2024-04-22 12:34:23] Reservation was deleted
+[2024-04-22 12:34:24] Passenger was deleted by admin
+[2024-04-22 12:35:28] Passenger was created :)
+[2024-04-22 12:42:22] Error inserting passenger into the database: 'NoneType' object has no attribute 'encode'
